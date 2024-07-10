@@ -51,6 +51,10 @@ app.post('/api/ringtones', async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send("Hi");
+});
+
 
 
 
